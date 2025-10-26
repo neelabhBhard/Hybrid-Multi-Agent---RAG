@@ -356,65 +356,16 @@ def calculator_menu(coordinator: Coordinator):
     print("\nCALCULATOR TOOL")
     print("-" * 30)
     
-    # Show calculator capabilities
-    capabilities = coordinator.get_calculator_capabilities()
-    print(" Supported Operations:")
-    print(f"  • Basic: {', '.join(capabilities['supported_operations']['basic'])}")
-    print(f"  • Advanced: {', '.join(capabilities['supported_operations']['advanced'])}")
-    print(f"  • Constants: {', '.join(capabilities['supported_operations']['constants'])}")
-    
-    print("\nAvailable Constants:")
-    for const_name, const_value in capabilities['math_constants'].items():
-        print(f"  • {const_name} = {const_value}")
-    
-    print("\n Usage Examples:")
-    print("  • Basic: 2 + 3 * 4")
-    print("  • Advanced: sqrt(16) + sin(pi/2)")
-    print("  • Equations: x + 5 = 10")
-    
     while True:
-        print("\n" + "-" * 30)
-        print("1. Calculate expression")
-        print("2. Solve equation")
-        print("3. Validate expression")
-        print("4. Back to main menu")
+        expression = input("Enter mathematical expression (or 'back' to return): ").strip()
         
-        choice = input("Enter your choice (1-4): ").strip()
-        
-        if choice == "1":
-            expression = input("Enter mathematical expression: ").strip()
-            if expression:
-                coordinator.calculate_expression(expression)
-            else:
-                print(" No expression provided")
-        
-        elif choice == "2":
-            equation = input("Enter equation (e.g., x + 5 = 10): ").strip()
-            if equation:
-                coordinator.solve_equation(equation)
-            else:
-                print(" No equation provided")
-        
-        elif choice == "3":
-            expression = input("Enter expression to validate: ").strip()
-            if expression:
-                validation = coordinator.calculator_tool.validate_expression(expression)
-                print(f"\nValidation Results:")
-                print(f"  • Valid: {validation['valid']}")
-                if validation['errors']:
-                    print(f"  • Errors: {', '.join(validation['errors'])}")
-                if validation['warnings']:
-                    print(f"  • Warnings: {', '.join(validation['warnings'])}")
-                if validation['suggestions']:
-                    print(f"  • Suggestions: {', '.join(validation['suggestions'])}")
-            else:
-                print("No expression provided")
-        
-        elif choice == "4":
+        if expression.lower() == 'back':
             break
         
+        if expression:
+            coordinator.calculate_expression(expression)
         else:
-            print(" Invalid choice. Please enter 1-4.")
+            print("No expression provided")
 
 
 def save_rag_response_to_file(result: dict, query: str):
