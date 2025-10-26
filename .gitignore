@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Generated files
+rag_response_*.txt
+*.bin
+*.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

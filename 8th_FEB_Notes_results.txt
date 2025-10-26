@@ -1,0 +1,91 @@
+EDUCATIONAL CONTENT SYSTEM - PROCESSING RESULTS
+============================================================
+
+DOCUMENT INFORMATION:
+Filename: 8th_FEB_Notes.pdf
+Pages: 4
+Text Length: 4,436 characters
+Processing Time: 0.09s
+
+CONTENT ANALYSIS:
+Main Topics: Divergence Minimization, Unsupervised Learning, Neural Network Fundamentals, Information Theory, Probabilistic Methods
+Difficulty Level: intermediate
+Estimated Reading Time: 15 minutes
+Summary: Data science and machine learning content with focus on neural networks and probability
+
+Key Concepts:
+• Normal Distribution: A bell-shaped probability distribution defined by mean and variance
+  Importance: 0.80
+
+• Backpropagation: Algorithm for adjusting neural network weights based on gradient calculations
+  Importance: 0.80
+
+• KL Divergence: Measure of difference between probability distributions
+  Importance: 0.80
+
+• GANs: Neural networks that generate synthetic data through adversarial training
+  Importance: 0.80
+
+GENERATED QUIZ:
+Title: Quiz on Divergence Minimization
+Description: Practice quiz covering 5 main topics
+Questions: 5
+Difficulty: intermediate
+Estimated Time: 10 minutes
+
+Q1. What is Normal Distribution?
+   Type: multiple_choice
+   1. A bell-shaped probability distribution defined by mean and variance
+   2. Related to general topic
+   3. None of the above
+   4. This concept is not defined
+   Answer: A bell-shaped probability distribution defined by mean and variance
+   Explanation: Normal Distribution is a key concept in this topic.
+   Topic: Divergence Minimization
+   Difficulty: intermediate
+
+Q2. What is Backpropagation?
+   Type: multiple_choice
+   1. Algorithm for adjusting neural network weights based on gradient calculations
+   2. Related to general topic
+   3. None of the above
+   4. This concept is not defined
+   Answer: Algorithm for adjusting neural network weights based on gradient calculations
+   Explanation: Backpropagation is a key concept in this topic.
+   Topic: Divergence Minimization
+   Difficulty: intermediate
+
+Q3. What is KL Divergence?
+   Type: multiple_choice
+   1. Measure of difference between probability distributions
+   2. Related to general topic
+   3. None of the above
+   4. This concept is not defined
+   Answer: Measure of difference between probability distributions
+   Explanation: KL Divergence is a key concept in this topic.
+   Topic: Divergence Minimization
+   Difficulty: intermediate
+
+Q4. What is GANs?
+   Type: multiple_choice
+   1. Neural networks that generate synthetic data through adversarial training
+   2. Related to general topic
+   3. None of the above
+   4. This concept is not defined
+   Answer: Neural networks that generate synthetic data through adversarial training
+   Explanation: GANs is a key concept in this topic.
+   Topic: Divergence Minimization
+   Difficulty: intermediate
+
+Q5. Which of the following is related to Divergence Minimization?
+   Type: true_false
+   Answer: True
+   Explanation: Divergence Minimization is one of the main topics covered in this content.
+   Topic: Divergence Minimization
+   Difficulty: intermediate
+
+PROCESSING STATISTICS:
+LLM Calls Used: 1
+Total Cost: $0.0020
+Total Processing Time: 7.61s
+Success: True
